@@ -1,0 +1,29 @@
+{
+    "name": "imtiaz/sslcommerz",
+    "description": "you can easily intregate sslcommerz in laravel",
+    "type": "composer-plugin",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Imtiaz\\Sslcommerz\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "imtiaz Ikbal",
+            "email": "imtiaz.ikbal.com@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+    "laravel": {
+        "providers": [
+            "Imtiaz\\Sslcommerz\\SslcommerzServiceProvider"
+        ],
+        "aliases": {
+            "Sslcommerz":"Imtiaz\\Sslcommerz\\Sslcommerz"
+        }
+    }
+}
+}
